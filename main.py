@@ -9,7 +9,7 @@ dead = 0
 values = [alive, dead]
 
 # aumenta a recursão possível
-sys.setrecursionlimit(1500)  # Perigoso cuidado para não esquentar o computador de mais
+sys.setrecursionlimit(1500) 
 
 
 def main():
@@ -156,7 +156,7 @@ def future(grid, size):
                 future_grid[m][n] = grid[m][n]
     return future_grid
 
-
+# A solução recursiva é temporária pois preciso para ensinar numa aula sobre recursão
 def next_gen(grid, size):
     os.system("clear")
     for i in range(size):
