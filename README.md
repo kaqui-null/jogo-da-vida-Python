@@ -2,8 +2,7 @@
 Um simples clone do jogo da vida por Jonh Conway
 
 ## No que se baseia 
-Nas pesquisas realizadas pelo matemático Jonh Conway   
-para achar uma máquina que capaz de construir cópias de si mesma 
+Nas pesquisas realizadas pelo matemático Jonh Conway para achar uma máquina que capaz de construir cópias de si mesma 
 
 ## Regras básicas
 1. Qualquer célula viva com menos de dois vizinhos morre de solidão;
@@ -35,8 +34,7 @@ python main.py
 
 ### Como mudar seu jogo 
 
-Por enquanto tenho apenas três tabuleiros prontos  
-além de um grid aleatório: Beacon, Glider e Glider gun  
+Por enquanto tenho apenas três tabuleiros prontos além de um grid aleatório: Beacon, Glider e Glider gun  
 Você deve tirar o primeiro _#_ que mostra um comentário nas linhas 120 - 125
 
 ### Como eu para a simulação
