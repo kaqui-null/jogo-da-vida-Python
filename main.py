@@ -116,10 +116,12 @@ def main():
          0]  # 38
     ]
 
-    # next_gen(grid_beacon, beacon_size)
-    next_gen(random_grid, size)
-    # next_gen(grid_glider, glider_size)
-    # next_gen(grid_gun, gun_size)
+    # Apague o comentário do grid que voçê quer ver
+
+    #next_gen(grid_beacon, beacon_size)  # Beacon
+    next_gen(random_grid, size)  # Grid aleatório
+    #next_gen(grid_glider, glider_size)  # Glider
+    #next_gen(grid_gun, gun_size)  # Glider gun
 
 
 def future(grid, size):
